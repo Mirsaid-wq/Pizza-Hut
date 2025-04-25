@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
 * {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-decoration: none;
   list-style: none;
 }
@@ -14,11 +16,13 @@ header {
 }
 ul li {
   font-weight: 530;
+  font-family: "Oswald", sans-serif;
 }
 header h2 {
   color: #ee3a43;
   font-size: 24px;
   font-weight: 400;
+  font-family: "Fugaz One", sans-serif;
 }
 ul {
   display: flex;
@@ -31,6 +35,7 @@ ul li {
   font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  font-family: "Oswald", sans-serif;
 }
 ul div {
   display: flex;
