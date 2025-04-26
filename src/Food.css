@@ -1,0 +1,53 @@
+.chicken img {
+  width: 200px;
+  height: 212px;
+  border-radius: 100px;
+}
+.menu_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f8fd;
+  text-align: center;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.menu_1 {
+  display: flex;
+  align-items: center;
+  height: 450px;
+  background-color: white;
+}
+.menu_2:hover {
+  box-shadow: 3 15px 50px rgba(0, 0, 0, 0.15);
+}
+.food_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f8fd;
+  text-align: center;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.back_1 {
+  width: 500px;
+  height: 350px;
+}
+.back_2 {
+  width: 700px;
+  height: 350px;
+}
+.food_1 div {
+  display: flex;
+  gap: 40px;
+}
+s h2 {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  margin-right: 30px;
+}
