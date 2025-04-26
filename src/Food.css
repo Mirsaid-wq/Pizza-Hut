@@ -6,16 +6,27 @@
 .menu_2 {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
   align-items: center;
+  width: 100%;
+}
+
+.chicken {
   padding: 20px;
   background-color: #f5f8fd;
   text-align: center;
-  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
+  border-radius: 14px;
 }
+
+.chicken:hover {
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.5s ease-in-out;
+}
+
 .menu_1 {
-  display: flex;
-  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
   height: 450px;
   background-color: white;
 }
