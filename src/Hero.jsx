@@ -1,9 +1,5 @@
-import { CarIcon } from "lucide-react";
 import "./Hero.css";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
-
+import hero from "./assets/e7f50c52d935883d5b269418ac9998669fd78485.png";
 function Hero() {
   return (
     <>
@@ -14,10 +10,7 @@ function Hero() {
           <h2>Limited offer/ 5$</h2>
           <button>Order Now</button>
         </div>
-        <img
-          src="src/assets/e7f50c52d935883d5b269418ac9998669fd78485.png"
-          alt=""
-        />
+        <img src={hero} alt="" />
       </section>
     </>
   );
