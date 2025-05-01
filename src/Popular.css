@@ -79,3 +79,10 @@
   background-color: #f4f1ea;
   gap: 30px;
 }
+.container_2 {
+  margin-top: 60px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

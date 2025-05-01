@@ -3,6 +3,7 @@ import chicken_2 from "./Images/aaf5fa78eb76c711c2c1690530ef1d59e34a7bf7.png";
 import pizza_2 from "./Images/837873ce8590045eb33a992f190073e4ad282082.png";
 import best from "./Images/f6678b9d990cbedbb7d71ab432644764ee7cf316.png";
 import Back_1 from "./Images/19aec504c60f92c206647cf37419207ce6dcd606.jpg";
+import Container from "./Images/Container.png";
 function Popular() {
   return (
     <>
@@ -35,6 +36,7 @@ function Popular() {
         </div>
         <img src={Back_1} alt="" />
       </section>
+      <img className="container_2" src={Container} alt="" />
     </>
   );
 }
