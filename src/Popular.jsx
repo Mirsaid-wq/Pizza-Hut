@@ -1,59 +1,41 @@
-import React from "react";
 import "./Popular.css";
-
+import chicken_2 from "./Images/aaf5fa78eb76c711c2c1690530ef1d59e34a7bf7.png";
+import pizza_2 from "./Images/837873ce8590045eb33a992f190073e4ad282082.png";
+import best from "./Images/f6678b9d990cbedbb7d71ab432644764ee7cf316.png";
+import Back_1 from "./Images/19aec504c60f92c206647cf37419207ce6dcd606.jpg";
 function Popular() {
   return (
-    <section className="popular-section">
-      <h2 className="popular-title">Popular Fast Foods</h2>
-      <p className="popular-subtitle">Crispy, Every Bite Taste</p>
-      <div className="popular-grid">
-        <div className="food-card">
-          <img
-            src="path/to/burger.png"
-            alt="Delicious Burger"
-            className="food-image"
-          />
-          <div className="food-info">
-            <h3 className="food-name">Delicious Burger</h3>
-            <p className="food-price">$60.00</p>
+    <>
+      <section className="popular">
+        <div>
+          <h2>CRISPY, EVERY BITE TASTE</h2>
+          <h1>
+            Tending Food Combo Offer ess <span> 20%</span>
+          </h1>
+          <h3>
+            A team of dreamers and doers building unique interactive music and
+            art festivals.
+          </h3>
+          <div className="btns">
+            <button className="btn-1">
+              {" "}
+              <img src={chicken_2} alt="" />
+              30% off 4pcs hot crispy & 8 pcs wings
+            </button>
+            <button className="btn-2">
+              {" "}
+              <img src={pizza_2} alt="" />
+              20% off tasty pizza with drink
+            </button>
+            <button className="btn-3">
+              <img src={best} alt="" />
+              2pcs humbergur with drinks & sauce
+            </button>
           </div>
         </div>
-        <div className="food-card">
-          <img
-            src="path/to/chicken.png"
-            alt="Grilled Chicken"
-            className="food-image"
-          />
-          <div className="food-info">
-            <h3 className="food-name">Grilled Chicken</h3>
-            <p className="food-price">$42.00</p>
-          </div>
-        </div>
-        <div className="food-card">
-          <img
-            src="path/to/ruti-chicken.png"
-            alt="Ruti With Chicken"
-            className="food-image"
-          />
-          <div className="food-info">
-            <h3 className="food-name">Ruti With Chicken</h3>
-            <p className="food-price">$26.00</p>
-          </div>
-        </div>
-        <div className="food-card">
-          <img
-            src="path/to/combo.png"
-            alt="Fast Food Combo"
-            className="food-image"
-          />
-          <div className="food-info">
-            <h3 className="food-name">Fast Food Combo</h3>
-            <p className="food-price">$34.00</p>
-          </div>
-        </div>
-      </div>
-    </section>
+        <img src={Back_1} alt="" />
+      </section>
+    </>
   );
 }
-
 export default Popular;
