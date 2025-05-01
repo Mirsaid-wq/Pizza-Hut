@@ -6,6 +6,9 @@ import Menu from "./Menu.jsx";
 import Food from "./Food.jsx";
 import Save from "./Save.jsx";
 import Popular from "./Popular.jsx";
+import Quality from "./Quality.jsx";
+import Special from "./Special.jsx";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -17,6 +20,8 @@ function App() {
       <Food />
       <Save />
       <Popular />
+      <Quality />
+      <Special />
     </>
   );
 }

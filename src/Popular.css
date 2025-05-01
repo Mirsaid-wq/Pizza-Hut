@@ -1,74 +1,88 @@
-.popular-section {
-  padding: 2rem;
-  background-color: #f9f9f9;
-  text-align: center;
+.popular {
+  height: 450px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.popular h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  width: 400px;
 }
 
-.popular-title {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 0.5rem;
+.popular button img {
+  width: 76px;
+  height: 36px;
+}
+.popular img {
+  width: 700px;
+  height: 450px;
 }
 
-.popular-subtitle {
-  font-size: 1.2rem;
-  color: #777;
-  margin-bottom: 2rem;
+.popular h2 {
+  color: #00a149;
+  font-size: 17px;
+  font-weight: 600;
+}
+.popular h1 span {
+  font-size: 40px;
+  font-weight: 700;
+  color: #00a149;
+}
+.popular h3 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #5c5c5b;
+}
+.popular h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.btn-1 {
+  width: 423px;
+  height: 66px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: black;
+  background-color: #f4f1ea;
 }
 
-.popular-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  justify-items: center;
+.btn-2 {
+  width: 423px;
+  height: 66px;
+  background-color: #ffc222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  gap: 80px;
 }
-
-.food-card {
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100%;
-  max-width: 250px;
+.btn-3 {
+  width: 423px;
+  height: 66px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: #f4f1ea;
+  gap: 30px;
 }
-
-.food-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-}
-
-.food-image {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
-.food-info {
-  padding: 1rem;
-  text-align: center;
-}
-
-.food-name {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #333;
-  margin: 0.5rem 0;
-}
-
-.food-price {
-  font-size: 1rem;
-  color: #555;
-}
-
-@media (max-width: 768px) {
-  .popular-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
-
-  .food-card {
-    max-width: 200px;
-  }
+.container_2 {
+  margin-top: 60px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
