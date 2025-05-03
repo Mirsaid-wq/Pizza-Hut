@@ -12,6 +12,9 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 100px;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
 }
 ul li {
   font-weight: 530;

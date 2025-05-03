@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: space-around;
   margin-top: 50px;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
 }
 .kfc img {
   width: 660px;
