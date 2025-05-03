@@ -8,6 +8,9 @@ import Save from "./Save.jsx";
 import Popular from "./Popular.jsx";
 import Quality from "./Quality.jsx";
 import Special from "./Special.jsx";
+import KFC from "./KFC.jsx";
+import Piter from "./Piter.jsx";
+import Deliver from "./Deliver.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +25,9 @@ function App() {
       <Popular />
       <Quality />
       <Special />
+      <KFC />
+      <Piter />
+      <Deliver />
     </>
   );
 }
