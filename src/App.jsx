@@ -11,7 +11,7 @@ import Special from "./Special.jsx";
 import KFC from "./KFC.jsx";
 import Piter from "./Piter.jsx";
 import Deliver from "./Deliver.jsx";
-
+import Footer from "./Footer.jsx";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -28,6 +28,7 @@ function App() {
       <KFC />
       <Piter />
       <Deliver />
+      <Footer />
     </>
   );
 }
