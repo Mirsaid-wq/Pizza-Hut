@@ -25,6 +25,9 @@ footer ul {
   align-items: center;
   justify-content: center;
   height: 450px;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
 }
 .footer_div ul li a {
   color: #000;
