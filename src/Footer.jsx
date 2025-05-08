@@ -1,3 +1,4 @@
+import { Facebook, Instagram } from "lucide-react";
 import "./Footer.css";
 
 function Footer() {
@@ -33,6 +34,7 @@ function Footer() {
               <h1>
                 <a href="#">Menu</a>
               </h1>
+
               <li>
                 <a href="#">Steaks</a>
               </li>
@@ -46,6 +48,26 @@ function Footer() {
                 <a href="#">Desserts</a>
               </li>
             </ul>
+          </div>
+          <div className="footer_s">
+            <h1>
+              <a href="#">NewsLetter</a>
+            </h1>
+            <p>Get recent news and updates.</p>
+            <input type="text" placeholder="Email Adres" name="" id="" />
+            <button>Subscribe</button>
+          </div>
+        </div>
+        <div className="last">
+          <h3>© 2024 pizza hut | All shawonetc3 Themes .</h3>
+          <div>
+            <h3>
+              {" "}
+              <Facebook /> FaceBook
+            </h3>
+            <h3>
+              <Instagram /> Instagram
+            </h3>
           </div>
         </div>
       </footer>
